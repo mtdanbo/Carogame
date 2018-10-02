@@ -6,7 +6,7 @@
 int main() {
 	gotoXY(80 / 2,0);
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN);
-	cout << "WELCOME TO CARO GAME IN 2018" << endl;
+	cout << "WELCOME TO CARO GAME IN 2018 MT Danbo" << endl;
 	int sizeBoard;
 	menuBoard();
 	char choice = 'A';
