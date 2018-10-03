@@ -16,6 +16,7 @@ struct Person
 	string text;
 	vector<pair<int, int>>movement;
 	int win;
+	int color;
 };
 struct Container
 {

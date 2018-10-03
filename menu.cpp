@@ -9,18 +9,3 @@ void menuBoard() {
 		cout << i + 1 << ". " << menuContent[i];
 	}
 }
-int drawBoard() {
-	system("cls");
-	int n;
-	cout << "Please choose the caro size: ";
-	cin >> n;
-	for (int i = 0; i < n; i++)
-	{
-		for (int k = 0; k < n; k++)
-		{
-			cout << "_ ";
-		}
-		cout << endl;
-	}
-	return n;
-}

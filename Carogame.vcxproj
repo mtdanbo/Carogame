@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="base.cpp" />
+    <ClCompile Include="board.cpp" />
     <ClCompile Include="compute.cpp" />
     <ClCompile Include="control.cpp" />
     <ClCompile Include="main.cpp" />
@@ -123,6 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h" />
+    <ClInclude Include="board.h" />
     <ClInclude Include="compute.h" />
     <ClInclude Include="control.h" />
     <ClInclude Include="menu.h" />
